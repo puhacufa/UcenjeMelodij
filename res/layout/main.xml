@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ozadje"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/android_button"
+        android:onClick="onButtonIgranjeClick"
+        android:text="Nova igra"
+        android:textSize="28dp" 
+        android:textColor="#ffffff"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonRezultati"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/android_button"
+            android:onClick="onButtonRezultatiClick"
+            android:text="Rezultati"
+            android:textColor="#ffffff"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/ButtonPrenos"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/android_button"
+            android:onClick="onButtonPrenosClick"
+            android:text="Posodobi"
+            android:textColor="#ffffff"
+            android:textSize="28dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/ButtonPesmi"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/android_button"
+            android:onClick="onButtonPesmiClick"
+            android:text="Pesmi"
+            android:textColor="#ffffff"
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/ButtonMySong"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/android_button"
+            android:onClick="onButtonMySongClick"
+            android:text="Ustvari pesem"
+            android:textColor="#ffffff"
+            android:textSize="28dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

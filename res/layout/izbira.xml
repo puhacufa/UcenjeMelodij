@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ozadje"
+    android:orientation="vertical" 
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/android_button"
+            android:onClick="onButtonClick"
+            android:tag="0"
+            android:text="Kuža pazi" 
+            android:textSize="28dp" 
+       	     android:textColor="#ffffff" android:bufferType="spannable" android:clickable="true"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/android_button"
+            android:onClick="onButtonClick"
+            android:tag="1"
+            android:text="Čuk se je oženil" 
+            android:textSize="28dp" 
+        android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/android_button"
+            android:onClick="onButtonClick"
+            android:tag="2"
+            android:text="Na planincah" 
+            android:textSize="28dp" 
+        android:textColor="#ffffff"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/android_button"
+            android:onClick="onButtonClick"
+            android:tag="3"
+            android:text="Barčica" 
+            android:textSize="28dp" 
+        android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/android_button"
+            android:onClick="onButtonClick"
+            android:tag="4"
+            android:text="Zima zima bela" 
+            android:textSize="28dp" 
+        android:textColor="#ffffff"/>
+
+        <!--  
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/android_button"
+            android:onClick="onButtonClick"
+            android:tag="5"
+            android:text="Biba leze, biba gre"
+			android:textSize="28dp" 
+        	android:textColor="#ffffff"/>
+        -->
+    </LinearLayout>
+
+</LinearLayout>
